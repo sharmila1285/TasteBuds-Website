@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form>
+        
+        <div>
+            <label for="name">Name:</label>
+        </div>
+        <div>
+            <input type="text" id="name" placeholder="username">
+        </div>
+        <div>
+            <label for="DOB">Date Of Birth:</label>
+        </div>
+        <div>
+            <input type="date" id="DOB" placeholder="DOB">
+        </div>
+        <div>
+            <label >Gender</label>
+        </div>
+        <div>
+            <input type="checkbox" id="male" class="gender"><label for="male">Male</label>
+            <input type="checkbox" id="female" class="gender"><label for="female">Female</label>
+        </div>
+        <div>
+            <label for="ph_no">Contact:</label>
+        </div>
+        <div>
+            <input type="tel" id="ph_no" placeholder="mobile number">
+        </div>
+        <div>
+            <label for="ur_email">Email id:</label>
+        </div>
+        <div>
+            <input type="email" id="ur_email" placeholder="email id">
+        </div>
+        <div>
+            <label for="password">Enter Password:</label>
+        </div>
+        <div>
+            <input type="text" id="password" placeholder="password">
+        </div>
+        <div>
+            <label for="confirm_pass">Confirm Password:</label>
+        </div>
+        <div>
+            <input type="text" id="confirm_pass" placeholder="Confirm password">
+        </div>
+        <div>
+            <button type="submit" onclick=validation()>Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
