@@ -1,0 +1,48 @@
+form{
+    border-style: solid;
+    border-radius: 100px;
+    border-color: lavender ;
+    background-color:lavenderblush;
+    padding-left:150px;
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-bottom:30px;
+    margin-top:200px;
+    margin-left:150px;
+    margin-right:550px;
+    margin-bottom:250px
+}
+div{
+     padding-bottom: 10px;
+     font-style: oblique;
+}
+input[type="text"]
+{
+    font-style:oblique;
+    padding-right: 100px;
+    padding-bottom: 6px;
+  
+} 
+button{
+    color:rgb(0, 0, 10);
+    background-color: rgb(227, 247, 49);
+     padding-right: 30px;
+     padding-left: 30px;
+
+    
+}
+h1{
+    color:black;
+    padding-left: 20px;
+}
+body{
+width: 100vw;
+  height: 100vh;
+  background: url('bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

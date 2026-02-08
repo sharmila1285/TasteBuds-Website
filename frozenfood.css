@@ -1,0 +1,42 @@
+
+
+.carousel-inner{
+    height: 300px;
+    
+}
+.carousel-caption {
+   top: 0;
+   bottom: auto;
+}
+h5{
+   color: black;
+   
+}
+p{
+   color: black;
+}
+h1{
+   font-size: 40px;
+   color: black;
+   text-align: center;
+   padding: 40px;
+}
+.card{
+margin: 30px;
+
+}
+
+.card-img-top{
+   height: 250px;
+   width: 150px;
+}
+.rate{
+   color: red;
+   font: 23px bold ;
+}
+.card-group{
+   background-image: url("background.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}

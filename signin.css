@@ -1,0 +1,35 @@
+
+form{
+    
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 250px ;
+    margin-right: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h1{
+    font-size: 40px;
+    margin-left: 420px ;
+
+}
+body{
+    background-image: url("icecream.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    padding-bottom: 15px;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+Registration form css.txt
+Displaying Registration form css.txt.
